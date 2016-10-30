@@ -27,8 +27,8 @@ module.exports = {
         path.join(__dirname, '/source')
       ]
     }],
-    resolve: {
-      extensions: ['.js', '.jsx']
-    }
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 };

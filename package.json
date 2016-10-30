@@ -4,7 +4,8 @@
   "description": "A sample app",
   "main": "webpack.config.js",
   "scripts": {
-    "start": "webpack-dev-server --hot",
+    "start": "webpack-dev-server --hot --display-error-details",
+    "show-error": "webpack --display-error-details",
     "build": "webpack -p"
   },
   "author": "David Le",
